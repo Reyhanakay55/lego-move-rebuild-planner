@@ -16,3 +16,8 @@ class LegoSet:
         self.missing_pieces = missing_pieces
         self.rebuild_progress = rebuild_progress
         self.notes = notes
+class StorageBox:
+    def __init__(self, box_number, label, notes):
+        self.box_number = box_number
+        self.label = label
+    self.notes = notes        
